@@ -5,15 +5,14 @@
     <title>Royal Robin</title>
     <style type="text/css">
         .background {
-            left: 0px;
-            top: 0px;
-            position: relative;
-            margin-left: auto;
-            margin-right: auto;
-            overflow: hidden;
-            color: #fff;
+            /*left: 0px;*/
+            /*top: 0px;*/
+            /*position: relative;*/
+            /*margin-left: auto;*/
+            /*margin-right: auto;*/
+            /*overflow: hidden;*/
+            /*color: #fff;*/
             text-align: center;
-            width: 700px;
         }
 
         .header {
@@ -32,7 +31,7 @@
             width: 71%;
             float: right;
             font-size: 14px;
-
+            text-align: center;
         }
         ul {
             display:  block;
@@ -44,9 +43,16 @@
             display: inline-block;
             padding: 0 10px;
         }
+        .banner p {
+            margin: 0;
+            padding: 7px;
+        }
         .banner {
             width: 100%;
             height: 30px;
+            background-color: #3d594a;
+            text-align: center;
+            color: #fff;
         }
         .trails-img-text {
             background: url("images/Layer1copy3.png") no-repeat;
@@ -160,7 +166,7 @@
 <body>
 <div class="background" id="background">
     <div class="header">
-        <img class="logo" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/5e8e1b7d-a46c-4e33-b3f1-39eeb87f3d2e.png">
+        <img class="logo" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/2d218cb4-2d41-4a16-a7d7-ae80534b11e1.png">
         <div class="menu">
             <ul>
                 <li><a href="https://www.royalrobbins.com/men" target="_blank">MEN</a></li>
@@ -171,48 +177,100 @@
         </div>
     </div>
     <div class="banner shop">
-        <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/0014f08b-a5ce-446b-bd61-d09f2c5a3e0e.jpg">
+        <p>FREE SHIPPING ON ORDER OVER $99*</p>
+    </div>
+    <style type="text/css">
+        .legging-section h3 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        .left {
+            width: 50%;
+            float: left;
+        }
+        .right {
+            width: 50%;
+            float: right;
+        }
+        .trek {
+            color: #ffffff;
+        }
+        .button {
+            margin: 10px;
+        }
+        .old-price {
+            text-decoration: line-through;
+            text-decoration-color: red;
+        }
+        @media only screen and (max-width:600px){
+            .left,
+            .right {
+                width: 100% !important;
+                float: none !important;
+            }
+        }
+    </style>
+    <div class="shop">
+        <div class="trek">
+            <img style="width: 100%" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/a2084583-7af7-44e1-826c-1316f7d7bdd0.png">
+            <div class="img-text">
+                <h1>Summer Sale</h1>
+                <h2>25% Off Select Styles</h2>
+                <p>
+                <a class="button" href="https://www.royalrobbins.com/women" target="_blank">SHOP W'S</a>
+                <a class="button" href="https://www.royalrobbins.com/men" target="_blank">SHOP M'S</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="legging-section shop">
+        <h1>NOE COLLECTION</h1>
+        <h3>
+            Eco-conscious Modal fibers give this fabric a super soft feel and exceptional moisture management properties.
+            Wrinkle resistant and breathable, it's ideal for travel
+        </h3>
+        <div class="product left">
+            <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/cf134eff-ad6a-410f-ac3a-ae89e632141b.png">
+            <h3>WOMEN'S</h3>
+            <H3>NOE TWIST TANK</H3>
+            <h3><span class="old-price">$123</span>&nbsp;&nbsp;<span>$345.98</span></h3>
+        </div>
+        <div class="product right">
+            <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/a2babfc4-ad6e-49e0-9e02-f0456bc24a28.png">
+            <h3>WOMEN'S</h3>
+            <H3>NOE CAP SLEEVE</H3>
+            <h3><span class="old-price">$123</span>&nbsp;&nbsp;<span>$345.98</span></h3>
+        </div>
     </div>
     <div class="shop">
         <div class="trek">
-            <img style="width: 100%" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/b1a196d6-00cb-4426-9173-39fc16cf49da.png">
-            <div class="img-text">
-                <h2>GO PREPARED TO</h2>
-                <h1>Trek & Travel</h1>
-                <p>Go Everywhere with our</p>
-                <p>new Jammer Knit collection</p>
-                <a class="button" href="https://www.royalrobbins.com/women" target="_blank">SHOP W'S</a>
-            </div>
+            <img style="width: 100%" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/47fbfafe-7df4-4452-b450-d0e2a7306141.png">
         </div>
     </div>
     <div class="legging-section shop">
-        <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/949c6e79-5855-4bbb-82b1-3f7af4971cc8.png">
-        <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/29db0f8e-d298-4547-9ee9-fb316b980de7.png">
-    </div>
-    <div class="section">
-        <img class="img-section" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/d56ab5f8-a65b-4a75-a83d-ac4f7238811d.png">
-        <img class="img-section" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/4b463791-6f66-421e-9a63-b60d00cc9565.png">
+        <h1>LIGHTWEIGHT  SHIRTS</h1>
+        <h3>Designed to Beat the Heat in high summer temps with maximun breathability</h3>
+        <div class="product left">
+            <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/fb1309de-b3ae-4dd9-8d5d-250685796501.png">
+            <h3>MEN'S</h3>
+            <H3>MID-COAST SEERSUCKER</H3>
+            <H3>PLAID SHORT SLEEVE</H3>
+            <h3><span class="old-price">$123</span>&nbsp;&nbsp;<span>$345.98</span></h3>
+        </div>
+        <div class="product right">
+            <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/bb33b2ca-ccc4-4566-835e-733787b8233d.png">
+            <h3>MEN'S</h3>
+            <H3>VISTA DRY</H3>
+            <H3>SHORT SLEEVE</H3>
+            <h3><span class="old-price">$123</span>&nbsp;&nbsp;<span>$345.98</span></h3>
+        </div>
     </div>
     <div class="shop">
-        <div class="trails">
-            <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/5e01fec2-c42f-4505-8f23-c39c93ce4937.png">
-            <div class="trails-img-text">
-                <h2>GO PREPARED FOR</h2>
-                <h1>Trails or City Streets</h1>
-                <p>The Active Traveler Collection</p>
-                <p>will take you everywhere.</p>
-                <a class="button" href="https://www.royalrobbins.com/mens" target="_blank">SHOP M'S</a>
-            </div>
+        <div class="trek">
+            <img style="width: 100%" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/75229065-d858-41de-b5d2-fcc62f61e4ec.png">
         </div>
     </div>
-    <div class="legging-section shop">
-        <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/bb810ea0-e2a5-4699-93bc-06151dc00de0.png">
-        <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/29db0f8e-d298-4547-9ee9-fb316b980de7.png">
-    </div>
-    <div class="section">
-        <img class="img-section" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/15ff3d98-22b3-4717-9e9b-68f8317ca697.png">
-        <img class="img-section" src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/2bf9b6d2-50a5-4ff7-9850-5e76e0602b16.png">
-    </div>
+
     <div class="banner shop">
         <img src="https://gallery.mailchimp.com/4d257a0359e85fa8eeded3aa4/images/0014f08b-a5ce-446b-bd61-d09f2c5a3e0e.jpg">
     </div>
